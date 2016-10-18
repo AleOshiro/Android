@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ale.movcalendar.Activity.LoginActivity"
+    android:background="@color/back">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:weightSum="1"
+        android:layout_height="550dp">
+
+        <ImageView
+            android:id="@+id/image_login"
+            android:layout_width="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.13"
+            android:layout_marginTop="40dp"
+            android:layout_height="170dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="@color/back3"
+            android:layout_height="320dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="20dp">
+
+            <EditText
+                android:id="@+id/usernameLogin"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textSize="20sp"
+                android:paddingLeft="10dp"
+                android:hint="Usuario"
+                android:background="@color/edit"
+                android:textColor="@color/back"
+                android:maxLength="22"
+                android:layout_marginBottom="15dp"
+                android:inputType="textPersonName"/>
+
+            <EditText
+                android:id="@+id/passwordLogin"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textSize="20sp"
+                android:paddingLeft="10dp"
+                android:hint="Contraseña"
+                android:background="@color/edit"
+                android:textColor="@color/back"
+                android:maxLength="22"
+                android:layout_marginBottom="15dp"
+                android:inputType="textPassword"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:id="@+id/showLogin"
+                android:text="Mostrar contraseña"
+                android:textColor="@color/edit"
+                android:layout_height="30dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:text="Login"
+                android:background="@color/boton"
+                android:textColor="@color/edit"
+                android:id="@+id/loginLogin"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:id="@+id/registerLogin"
+                android:text="CREAR CUENTA NUEVA"
+                android:layout_width="match_parent"
+                android:background="@color/back3"
+                android:textColor="@color/edit"
+                android:layout_marginTop="15dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+<!-- Verificacion de los datos del usuario (Mis datos)
+    <Button
+        android:id="@+id/b"
+        android:text="CREAR CUENTA NUEVA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/back"
+        android:textColor="@color/edit"
+        android:layout_marginTop="20dp"
+        android:textCursorDrawable="@mipmap/ic_launcher" /> -->
+

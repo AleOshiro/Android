@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_movie"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ale.movcalendar.Activity.AddMovieActivity">
+
+    <EditText
+        android:id="@+id/editText_peliNombre"
+        android:hint="Nombre"
+        android:textSize="20sp"
+        android:background="@color/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/editText_peliGenero"
+        android:hint="Genero"
+        android:textSize="20sp"
+        android:background="@color/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/editText_peliTemporada"
+        android:hint="Temporada"
+        android:textSize="20sp"
+        android:background="@color/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/editText_peliDescripcion"
+        android:hint="Descripcion"
+        android:textSize="20sp"
+        android:background="@color/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/editText_peliImagen"
+        android:hint="Imagen"
+        android:textSize="20sp"
+        android:background="@color/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/button_peliAgregar"
+        android:text="Agregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/background_light"
+        android:background="@color/boton" />
+
+</LinearLayout>

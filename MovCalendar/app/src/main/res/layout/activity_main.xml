@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ale.movcalendar.Activity.MainActivity"
+    android:background="@color/back">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:hint="Ingrese dato"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/edit" />
+
+        <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:hint="Ingrese dato"
+        android:layout_height="56dp"
+            android:textColorHint="@color/edit"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/borrar"
+            android:text="Borrar"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:background="@color/boton" />
+
+        <Button
+            android:id="@+id/insertar"
+            android:text="Recomendados"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/boton" />
+
+        <Button
+            android:id="@+id/consultar"
+            android:text="Consultar"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/boton" />
+
+        <Button
+            android:id="@+id/Buttonn"
+            android:text="Agregar"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/boton" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

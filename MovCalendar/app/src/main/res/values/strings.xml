@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MovCalendar</string>
+
+    <!--String del login y del registro -->
+    <string name="toolbar_login">Iniciar Sesion</string>
+    <string name="toolbar_registro">Nueva cuenta</string>
+
+
+    <string-array name="recomendaciones">
+        <item>Billions</item>
+        <item>The Affair</item>
+        <item>Making a Murderer</item>
+        <item>The Killing</item>
+        <item>Stranger Things</item>
+        <item>Marseille</item>
+        <item>Flaked</item>
+        <item>Bloodline</item>
+        <item>Secretos y Mentiras</item>
+        <item>American Crime</item>
+        <item>Better Call Saul</item>
+        <item>Sense8</item>
+        <item>El Club de los Cuervos</item>
+    </string-array>
+
+    <string-array name="descripicones">
+        <item>Fast y Furious (Fast y Furious: aún más rápido (a todo gas 4) en España; Rápidos y furiosos en Hispanoamérica) es una película de 2009 de acción estadounidense dirigida por Justin Lin y protagonizada por Paul Walker, Vin Diesel, Michelle Rodríguez y Jordana Brewster. Es el cuarto film de la saga The Fast and the Furious.</item>
+        <item>Piratas del Caribe (en inglés, Pirates of the Caribbean) es el título de la pentalogía cinematográfica de Walt Disney Pictures integrada por Piratas del Caribe: La maldición del Perla Negra (2003), Piratas del Caribe: El cofre del hombre muerto (2006), Piratas del Caribe: En el fin del mundo (2007), Piratas del Caribe: En mareas misteriosas (2011) y Piratas del Caribe: La venganza de Salazar (2017).</item>
+        <item>Transformers es una película de acción y ciencia ficción estadounidense de 2007 basada en la línea de juguetes de Transformers. La película, que combina animación por computadora con acción en vivo, es dirigida por Michael Bay, con Steven Spielberg como productor ejecutivo. </item>
+        <item>Thor (del nórdico antiguo Þórr; Dzor, pronunciado tradicionalmente en español como Tor) es el dios del trueno en la mitología nórdica y germánica. Su papel es complejo ya que tenía influencia en áreas muy diferentes, tales como el clima, las cosechas, la protección, la consagración, la justicia, las lidias, los viajes y las batallas.</item>
+        <item>Avatar es una película de ciencia ficción estadounidense de 2009, escrita, producida y dirigida por James Cameron y protagonizada por Sam Worthington, Zoe Saldaña, Sigourney Weaver, Stephen Lang y Michelle Rodríguez.</item>
+        <item>Parque Jurásico —en inglés: en inglés, Jurassic Park— es una película de ciencia ficción dirigida por el cineasta estadounidense Steven Spielberg, estrenada en 1993 y basada en la novela homónima del escritor Michael Crichton. La trama describe las experiencias de un grupo de visitantes en un parque de diversiones que tiene como atracción principal a dinosaurios clonados.</item>
+        <item>Rocky es una película estadounidense de 1976 escrita y protagonizada por Sylvester Stallone y dirigida por John G. Avildsen. La historia narra la búsqueda del sueño americano por parte de Rocky Balboa, un italoestadounidense de clase baja que se dedica a cobrar los créditos de un prestamista de Filadelfia</item>
+        <item>Back to the Future Part III (titulada Regreso al futuro III en España y Volver al futuro III en Hispanoamérica) es una película de ciencia ficción protagonizada por Michael J. Fox y Christopher Lloyd y estrenada en 1990.</item>
+    </string-array>
+</resources>
